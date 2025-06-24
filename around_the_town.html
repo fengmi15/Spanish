@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Around Town Vocabulary Reference</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+        
+        .section-header {
+            background: linear-gradient(135deg, #ff8c00 0%, #ffd700 100%);
+            color: white;
+            padding: 20px 40px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .section-header:first-child {
+            margin-top: 0;
+        }
+        
+        .table-container {
+            padding: 40px;
+        }
+        
+        .table-wrapper {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1.1rem;
+        }
+        
+        thead {
+            background: linear-gradient(135deg, #ff8c00 0%, #ffd700 100%);
+        }
+        
+        thead th {
+            color: white;
+            font-weight: 600;
+            font-size: 1.4rem;
+            padding: 20px;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        tbody tr {
+            border-bottom: 1px solid #e9ecef;
+            transition: all 0.2s ease;
+        }
+        
+        tbody tr:hover {
+            background-color: #f8f9fa;
+            transform: translateY(-1px);
+        }
+        
+        tbody tr:nth-child(even) {
+            background-color: #fdfdfe;
+        }
+        
+        td {
+            padding: 18px 20px;
+            vertical-align: top;
+        }
+        
+        .english-col {
+            font-weight: 500;
+            color: #2c3e50;
+            width: 45%;
+            font-size: 1.1rem;
+        }
+        
+        .spanish-col {
+            color: #495057;
+            font-style: italic;
+            width: 55%;
+            font-size: 1.1rem;
+        }
+        
+        .spanish-col::before {
+            content: "• ";
+            color: #ff8c00;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            text-align: center;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .footer p {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+            
+            tbody tr:hover {
+                background-color: transparent;
+                transform: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .table-container {
+                padding: 20px;
+            }
+            
+            table {
+                font-size: 0.9rem;
+            }
+            
+            td {
+                padding: 12px 15px;
+            }
+            
+            .section-header {
+                font-size: 1.2rem;
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- AROUND TOWN SECTION -->
+        <div class="section-header">Around Town - Por la Ciudad</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="spanish-col">Spanish</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">a apartment block</td><td class="spanish-col">un edificio de apartamentos</td></tr>
+                        <tr><td class="english-col">a art gallery</td><td class="spanish-col">una galería de arte</td></tr>
+                        <tr><td class="english-col">a bank</td><td class="spanish-col">un banco</td></tr>
+                        <tr><td class="english-col">a bar</td><td class="spanish-col">un bar</td></tr>
+                        <tr><td class="english-col">a block</td><td class="spanish-col">una cuadra de distancia</td></tr>
+                        <tr><td class="english-col">a bookstore</td><td class="spanish-col">una librería</td></tr>
+                        <tr><td class="english-col">a borough</td><td class="spanish-col">un distrito</td></tr>
+                        <tr><td class="english-col">a boulevard</td><td class="spanish-col">un bulevar</td></tr>
+                        <tr><td class="english-col">a bowling alley</td><td class="spanish-col">una pista de bolos</td></tr>
+                        <tr><td class="english-col">a bridge</td><td class="spanish-col">un puente</td></tr>
+                        <tr><td class="english-col">a building</td><td class="spanish-col">un edificio</td></tr>
+                        <tr><td class="english-col">a building society</td><td class="spanish-col">una empresa de construcción</td></tr>
+                        <tr><td class="english-col">a built-up area</td><td class="spanish-col">una aglomeración</td></tr>
+                        <tr><td class="english-col">a bus shelter</td><td class="spanish-col">un abribus</td></tr>
+                        <tr><td class="english-col">a bus station</td><td class="spanish-col">una estación de autobuses</td></tr>
+                        <tr><td class="english-col">a bus stop</td><td class="spanish-col">una parada de autobús</td></tr>
+                        <tr><td class="english-col">a bystander</td><td class="spanish-col">un transeúnte</td></tr>
+                        <tr><td class="english-col">a café</td><td class="spanish-col">un café</td></tr>
+                        <tr><td class="english-col">a capital</td><td class="spanish-col">una capital</td></tr>
+                        <tr><td class="english-col">a car park</td><td class="spanish-col">un aparcamiento</td></tr>
+                        <tr><td class="english-col">a caretaker/manager</td><td class="spanish-col">un conserje</td></tr>
+                        <tr><td class="english-col">a cathedral</td><td class="spanish-col">una catedral</td></tr>
+                        <tr><td class="english-col">a cemetery, a graveyard</td><td class="spanish-col">un cementerio</td></tr>
+                        <tr><td class="english-col">a chemist (GB), a pharmacy (US)</td><td class="spanish-col">una farmacia</td></tr>
+                        <tr><td class="english-col">a children's playground</td><td class="spanish-col">un parque infantil</td></tr>
+                        <tr><td class="english-col">a church</td><td class="spanish-col">una iglesia</td></tr>
+                        <tr><td class="english-col">a cinema, movie theater</td><td class="spanish-col">un cine</td></tr>
+                        <tr><td class="english-col">a city</td><td class="spanish-col">una ciudad</td></tr>
+                        <tr><td class="english-col">a commercial mall</td><td class="spanish-col">un centro comercial</td></tr>
+                        <tr><td class="english-col">a concert hall</td><td class="spanish-col">una sala de conciertos</td></tr>
+                        <tr><td class="english-col">a court, courthouse</td><td class="spanish-col">un tribunal</td></tr>
+                        <tr><td class="english-col">a crossroads</td><td class="spanish-col">una encrucijada</td></tr>
+                        <tr><td class="english-col">a dead end</td><td class="spanish-col">un callejón sin salida</td></tr>
+                        <tr><td class="english-col">a department store</td><td class="spanish-col">una gran tienda</td></tr>
+                        <tr><td class="english-col">a deviation</td><td class="spanish-col">una desviación</td></tr>
+                        <tr><td class="english-col">a district, a neighborhood</td><td class="spanish-col">un barrio</td></tr>
+                        <tr><td class="english-col">a factory</td><td class="spanish-col">una fábrica</td></tr>
+                        <tr><td class="english-col">a fire station</td><td class="spanish-col">un cuartel de bomberos</td></tr>
+                        <tr><td class="english-col">a flat</td><td class="spanish-col">un apartamento</td></tr>
+                        <tr><td class="english-col">a fountain</td><td class="spanish-col">una fuente</td></tr>
+                        <tr><td class="english-col">a garage</td><td class="spanish-col">un garaje</td></tr>
+                        <tr><td class="english-col">a gutter</td><td class="spanish-col">una alcantarilla</td></tr>
+                        <tr><td class="english-col">a gym</td><td class="spanish-col">un gimnasio</td></tr>
+                        <tr><td class="english-col">a health centre</td><td class="spanish-col">un centro de salud</td></tr>
+                        <tr><td class="english-col">a hospital</td><td class="spanish-col">un hospital</td></tr>
+                        <tr><td class="english-col">a hotel</td><td class="spanish-col">un hotel</td></tr>
+                        <tr><td class="english-col">a junction</td><td class="spanish-col">un cruce</td></tr>
+                        <tr><td class="english-col">a lamppost</td><td class="spanish-col">una farola</td></tr>
+                        <tr><td class="english-col">a library</td><td class="spanish-col">una biblioteca</td></tr>
+                        <tr><td class="english-col">a main street</td><td class="spanish-col">una calle principal</td></tr>
+                        <tr><td class="english-col">a marketplace</td><td class="spanish-col">un mercado</td></tr>
+                        <tr><td class="english-col">a mayor</td><td class="spanish-col">un alcalde</td></tr>
+                        <tr><td class="english-col">a monument</td><td class="spanish-col">un monumento</td></tr>
+                        <tr><td class="english-col">a mosque</td><td class="spanish-col">una mezquita</td></tr>
+                        <tr><td class="english-col">a motorway (uk), freeway (us)</td><td class="spanish-col">una autopista</td></tr>
+                        <tr><td class="english-col">a multi-storey car park</td><td class="spanish-col">un aparcamiento de varias plantas</td></tr>
+                        <tr><td class="english-col">a museum</td><td class="spanish-col">un museo</td></tr>
+                        <tr><td class="english-col">a neighbour</td><td class="spanish-col">un vecino</td></tr>
+                        <tr><td class="english-col">a one-way street</td><td class="spanish-col">una calle de un solo sentido</td></tr>
+                        <tr><td class="english-col">a palace</td><td class="spanish-col">un palacio</td></tr>
+                        <tr><td class="english-col">a park</td><td class="spanish-col">un parque</td></tr>
+                        <tr><td class="english-col">a parking meter</td><td class="spanish-col">un parquímetro</td></tr>
+                        <tr><td class="english-col">a pavement, a sidewalk</td><td class="spanish-col">una acera</td></tr>
+                        <tr><td class="english-col">a pedestrian</td><td class="spanish-col">un peatón</td></tr>
+                        <tr><td class="english-col">a pedestrian crossing</td><td class="spanish-col">un paso para peatones</td></tr>
+                        <tr><td class="english-col">a pedestrian road</td><td class="spanish-col">una calle peatonal</td></tr>
+                        <tr><td class="english-col">a pedestrian subway</td><td class="spanish-col">un paso peatonal subterráneo</td></tr>
+                        <tr><td class="english-col">a petrol station</td><td class="spanish-col">una gasolinera</td></tr>
+                        <tr><td class="english-col">a police station</td><td class="spanish-col">una comisaría de policía</td></tr>
+                        <tr><td class="english-col">a post office</td><td class="spanish-col">una oficina de correos</td></tr>
+                        <tr><td class="english-col">a prison</td><td class="spanish-col">una prisión</td></tr>
+                        <tr><td class="english-col">a prohibited direction</td><td class="spanish-col">un sentido prohibido</td></tr>
+                        <tr><td class="english-col">a pub</td><td class="spanish-col">un pub</td></tr>
+                        <tr><td class="english-col">a quay, wharf</td><td class="spanish-col">un muelle</td></tr>
+                        <tr><td class="english-col">a residential district</td><td class="spanish-col">una zona residencial</td></tr>
+                        <tr><td class="english-col">a rest area</td><td class="spanish-col">un área de descanso</td></tr>
+                        <tr><td class="english-col">a restaurant</td><td class="spanish-col">un restaurante</td></tr>
+                        <tr><td class="english-col">a roundabout</td><td class="spanish-col">una rotonda</td></tr>
+                        <tr><td class="english-col">a school</td><td class="spanish-col">una escuela</td></tr>
+                        <tr><td class="english-col">a sewer</td><td class="spanish-col">un alcantarillado</td></tr>
+                        <tr><td class="english-col">a shanty town</td><td class="spanish-col">un barrio de chabolas</td></tr>
+                        <tr><td class="english-col">a side street</td><td class="spanish-col">una calle secundaria</td></tr>
+                        <tr><td class="english-col">a signpost</td><td class="spanish-col">un panel de señalización</td></tr>
+                        <tr><td class="english-col">a skate park</td><td class="spanish-col">un skate-parque</td></tr>
+                        <tr><td class="english-col">a skyscraper</td><td class="spanish-col">un rascacielos</td></tr>
+                        <tr><td class="english-col">a square</td><td class="spanish-col">una plaza</td></tr>
+                        <tr><td class="english-col">a stadium</td><td class="spanish-col">un estadio</td></tr>
+                        <tr><td class="english-col">a store</td><td class="spanish-col">una tienda</td></tr>
+                        <tr><td class="english-col">a street</td><td class="spanish-col">una calle</td></tr>
+                        <tr><td class="english-col">a street lamp, streetlight</td><td class="spanish-col">una farola</td></tr>
+                        <tr><td class="english-col">a subway</td><td class="spanish-col">un metro</td></tr>
+                        <tr><td class="english-col">a supermarket</td><td class="spanish-col">un supermercado</td></tr>
+                        <tr><td class="english-col">a swimming pool</td><td class="spanish-col">una piscina</td></tr>
+                        <tr><td class="english-col">a synagogue</td><td class="spanish-col">una sinagoga</td></tr>
+                        <tr><td class="english-col">a taxi rank</td><td class="spanish-col">una estación de taxis</td></tr>
+                        <tr><td class="english-col">a telephone box / booth</td><td class="spanish-col">una cabina telefónica</td></tr>
+                        <tr><td class="english-col">a tenant</td><td class="spanish-col">un inquilino</td></tr>
+                        <tr><td class="english-col">a tennis court</td><td class="spanish-col">una pista de tenis</td></tr>
+                        <tr><td class="english-col">a theatre</td><td class="spanish-col">un teatro</td></tr>
+                        <tr><td class="english-col">a tourist</td><td class="spanish-col">un turista</td></tr>
+                        <tr><td class="english-col">a tower block (uk)/ a high rise (us)</td><td class="spanish-col">una torre de vivienda</td></tr>
+                        <tr><td class="english-col">a town hall</td><td class="spanish-col">un ayuntamiento</td></tr>
+                        <tr><td class="english-col">a town square</td><td class="spanish-col">un lugar público</td></tr>
+                        <tr><td class="english-col">a traffic jam</td><td class="spanish-col">un atasco de tráfico</td></tr>
+                        <tr><td class="english-col">a train station</td><td class="spanish-col">una estación de tren</td></tr>
+                        <tr><td class="english-col">a university</td><td class="spanish-col">una universidad</td></tr>
+                        <tr><td class="english-col">a vehicle</td><td class="spanish-col">un vehículo</td></tr>
+                        <tr><td class="english-col">a village</td><td class="spanish-col">un pueblo</td></tr>
+                        <tr><td class="english-col">a war memorial</td><td class="spanish-col">un monumento a los muertos</td></tr>
+                        <tr><td class="english-col">a wine bar</td><td class="spanish-col">un bar de vinos</td></tr>
+                        <tr><td class="english-col">a zoo</td><td class="spanish-col">un zoológico</td></tr>
+                        <tr><td class="english-col">an accomodation</td><td class="spanish-col">una vivienda</td></tr>
+                        <tr><td class="english-col">an alley(way), side street, lane</td><td class="spanish-col">un callejón</td></tr>
+                        <tr><td class="english-col">an avenue</td><td class="spanish-col">una avenida</td></tr>
+                        <tr><td class="english-col">an embankment</td><td class="spanish-col">un terraplén</td></tr>
+                        <tr><td class="english-col">an estate agent</td><td class="spanish-col">un agente inmobiliario</td></tr>
+                        <tr><td class="english-col">an inhabitant</td><td class="spanish-col">un habitante</td></tr>
+                        <tr><td class="english-col">an internet cafe</td><td class="spanish-col">un café internet</td></tr>
+                        <tr><td class="english-col">an office block</td><td class="spanish-col">un edificio de oficinas</td></tr>
+                        <tr><td class="english-col">an old town</td><td class="spanish-col">un casco antiguo</td></tr>
+                        <tr><td class="english-col">an urban area</td><td class="spanish-col">una zona urbana</td></tr>
+                        <tr><td class="english-col">busy</td><td class="spanish-col">muy frecuentado</td></tr>
+                        <tr><td class="english-col">clean</td><td class="spanish-col">propia</td></tr>
+                        <tr><td class="english-col">congested</td><td class="spanish-col">embotellado</td></tr>
+                        <tr><td class="english-col">dental clinic</td><td class="spanish-col">un consultorio dental</td></tr>
+                        <tr><td class="english-col">dirty</td><td class="spanish-col">sucio</td></tr>
+                        <tr><td class="english-col">doctor clinic</td><td class="spanish-col">un consultorio médico</td></tr>
+                        <tr><td class="english-col">dustbin, garbage can</td><td class="spanish-col">un cubo de basura</td></tr>
+                        <tr><td class="english-col">dustmen, collectors</td><td class="spanish-col">los basureros</td></tr>
+                        <tr><td class="english-col">green spaces</td><td class="spanish-col">los espacios verdes</td></tr>
+                        <tr><td class="english-col">historical</td><td class="spanish-col">histórico</td></tr>
+                        <tr><td class="english-col">housing</td><td class="spanish-col">la vivienda</td></tr>
+                        <tr><td class="english-col">industry</td><td class="spanish-col">la industria</td></tr>
+                        <tr><td class="english-col">just around the corner</td><td class="spanish-col">a la vuelta de la esquina</td></tr>
+                        <tr><td class="english-col">leisure centre or sports centre</td><td class="spanish-col">un centro de ocio</td></tr>
+                        <tr><td class="english-col">lively</td><td class="spanish-col">animado</td></tr>
+                        <tr><td class="english-col">noisy</td><td class="spanish-col">ruidoso</td></tr>
+                        <tr><td class="english-col">overcrowded</td><td class="spanish-col">superpoblado</td></tr>
+                        <tr><td class="english-col">paving stones</td><td class="spanish-col">los adoquines</td></tr>
+                        <tr><td class="english-col">peaceful</td><td class="spanish-col">tranquilo</td></tr>
+                        <tr><td class="english-col">picturesque</td><td class="spanish-col">pintoresco</td></tr>
+                        <tr><td class="english-col">pollution</td><td class="spanish-col">la contaminación</td></tr>
+                        <tr><td class="english-col">pretty</td><td class="spanish-col">bonito</td></tr>
+                        <tr><td class="english-col">railings</td><td class="spanish-col">la barandilla de seguridad</td></tr>
+                        <tr><td class="english-col">rush hour</td><td class="spanish-col">la hora punta</td></tr>
+                        <tr><td class="english-col">safe</td><td class="spanish-col">seguro</td></tr>
+                        <tr><td class="english-col">surroundings</td><td class="spanish-col">los alrededores</td></tr>
+                        <tr><td class="english-col">the bicycle path</td><td class="spanish-col">el carril bici</td></tr>
+                        <tr><td class="english-col">the cash machine / atm</td><td class="spanish-col">el distribuidor de billetes</td></tr>
+                        <tr><td class="english-col">the castle</td><td class="spanish-col">el castillo</td></tr>
+                        <tr><td class="english-col">the citizens</td><td class="spanish-col">los ciudadanos</td></tr>
+                        <tr><td class="english-col">the city centre</td><td class="spanish-col">el centro de la ciudad</td></tr>
+                        <tr><td class="english-col">the city council</td><td class="spanish-col">el ayuntamiento</td></tr>
+                        <tr><td class="english-col">the corner</td><td class="spanish-col">la esquina</td></tr>
+                        <tr><td class="english-col">the crowd</td><td class="spanish-col">la multitud</td></tr>
+                        <tr><td class="english-col">the delivery van</td><td class="spanish-col">la camioneta de entrega</td></tr>
+                        <tr><td class="english-col">the laundromat</td><td class="spanish-col">la lavandería automática</td></tr>
+                        <tr><td class="english-col">the main street</td><td class="spanish-col">la calle principal</td></tr>
+                        <tr><td class="english-col">the newsstand</td><td class="spanish-col">el quiosco de periódicos</td></tr>
+                        <tr><td class="english-col">the parking meter</td><td class="spanish-col">el parquímetro</td></tr>
+                        <tr><td class="english-col">the passage</td><td class="spanish-col">el paso</td></tr>
+                        <tr><td class="english-col">the pavement</td><td class="spanish-col">la acera</td></tr>
+                        <tr><td class="english-col">the prison</td><td class="spanish-col">la prisión, la cárcel</td></tr>
+                        <tr><td class="english-col">the queue</td><td class="spanish-col">la cola</td></tr>
+                        <tr><td class="english-col">the ramparts</td><td class="spanish-col">las murallas</td></tr>
+                        <tr><td class="english-col">the rest room</td><td class="spanish-col">el inodoro</td></tr>
+                        <tr><td class="english-col">the sewers</td><td class="spanish-col">las alcantarillas</td></tr>
+                        <tr><td class="english-col">the sights</td><td class="spanish-col">los lugares para ver</td></tr>
+                        <tr><td class="english-col">the slums</td><td class="spanish-col">los barrios de tugurios</td></tr>
+                        <tr><td class="english-col">the statue</td><td class="spanish-col">la estatua</td></tr>
+                        <tr><td class="english-col">the store</td><td class="spanish-col">la tienda</td></tr>
+                        <tr><td class="english-col">the suburbs</td><td class="spanish-col">los suburbios</td></tr>
+                        <tr><td class="english-col">the tar</td><td class="spanish-col">el alquitrán</td></tr>
+                        <tr><td class="english-col">the tourist information office</td><td class="spanish-col">la oficina de turismo</td></tr>
+                        <tr><td class="english-col">the traffic</td><td class="spanish-col">el tráfico</td></tr>
+                        <tr><td class="english-col">the view</td><td class="spanish-col">la vista</td></tr>
+                        <tr><td class="english-col">traffic lights</td><td class="spanish-col">los semáforos de señalización</td></tr>
+                        <tr><td class="english-col">vets</td><td class="spanish-col">un gabinete veterinario</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- USEFUL VERBS SECTION -->
+        <div class="section-header">Useful Verbs - Verbos Útiles</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="spanish-col">Spanish</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">to cross the street</td><td class="spanish-col">cruzar la calle</td></tr>
+                        <tr><td class="english-col">to hurry</td><td class="spanish-col">apresurarse</td></tr>
+                        <tr><td class="english-col">to live</td><td class="spanish-col">vivir</td></tr>
+                        <tr><td class="english-col">to pay the rent</td><td class="spanish-col">pagar el alquiler</td></tr>
+                        <tr><td class="english-col">to stop</td><td class="spanish-col">detenerse</td></tr>
+                        <tr><td class="english-col">to tar</td><td class="spanish-col">asfaltar</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>Spanish Around Town Vocabulary Reference</strong></p>
+            <p>Professional vocabulary compilation presented by meliglossa</p>
+        </div>
+    </div>
+</body>
+</html>
