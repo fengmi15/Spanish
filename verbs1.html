@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Verbs Reference</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+        
+        .section-header {
+            background: linear-gradient(135deg, #ff8c00 0%, #ffd700 100%);
+            color: white;
+            padding: 20px 40px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .section-header:first-child {
+            margin-top: 0;
+        }
+        
+        .table-container {
+            padding: 40px;
+        }
+        
+        .table-wrapper {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1.1rem;
+        }
+        
+        thead {
+            background: linear-gradient(135deg, #ff8c00 0%, #ffd700 100%);
+        }
+        
+        thead th {
+            color: white;
+            font-weight: 600;
+            font-size: 1.4rem;
+            padding: 20px;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        tbody tr {
+            border-bottom: 1px solid #e9ecef;
+            transition: all 0.2s ease;
+        }
+        
+        tbody tr:hover {
+            background-color: #f8f9fa;
+            transform: translateY(-1px);
+        }
+        
+        tbody tr:nth-child(even) {
+            background-color: #fdfdfe;
+        }
+        
+        td {
+            padding: 18px 20px;
+            vertical-align: top;
+        }
+        
+        .english-col {
+            color: #2c3e50;
+            width: 45%;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        
+        .spanish-col {
+            color: #495057;
+            font-style: italic;
+            width: 55%;
+            font-size: 1.1rem;
+        }
+        
+        .spanish-col::before {
+            content: "• ";
+            color: #ff8c00;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            text-align: center;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .footer p {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+            
+            tbody tr:hover {
+                background-color: transparent;
+                transform: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .table-container {
+                padding: 20px;
+            }
+            
+            table {
+                font-size: 0.9rem;
+            }
+            
+            td {
+                padding: 12px 15px;
+            }
+            
+            .section-header {
+                font-size: 1.2rem;
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- ESSENTIAL VERBS SECTION -->
+        <div class="section-header">Essential Verbs - Verbos Esenciales</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="spanish-col">Spanish</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">accept</td><td class="spanish-col">aceptar</td></tr>
+                        <tr><td class="english-col">add</td><td class="spanish-col">añadir</td></tr>
+                        <tr><td class="english-col">allow</td><td class="spanish-col">permitir</td></tr>
+                        <tr><td class="english-col">answer</td><td class="spanish-col">responder</td></tr>
+                        <tr><td class="english-col">arrive</td><td class="spanish-col">llegar</td></tr>
+                        <tr><td class="english-col">ask(formal)</td><td class="spanish-col">solicitar</td></tr>
+                        <tr><td class="english-col">be</td><td class="spanish-col">ser, estar</td></tr>
+                        <tr><td class="english-col">be able</td><td class="spanish-col">poder</td></tr>
+                        <tr><td class="english-col">become</td><td class="spanish-col">convertirse</td></tr>
+                        <tr><td class="english-col">believe</td><td class="spanish-col">creer</td></tr>
+                        <tr><td class="english-col">break</td><td class="spanish-col">romper</td></tr>
+                        <tr><td class="english-col">bring</td><td class="spanish-col">aportar</td></tr>
+                        <tr><td class="english-col">buy</td><td class="spanish-col">comprar</td></tr>
+                        <tr><td class="english-col">call, name</td><td class="spanish-col">llamar</td></tr>
+                        <tr><td class="english-col">carry</td><td class="spanish-col">llevar</td></tr>
+                        <tr><td class="english-col">change</td><td class="spanish-col">cambiar</td></tr>
+                        <tr><td class="english-col">choose</td><td class="spanish-col">elegir, seleccionar</td></tr>
+                        <tr><td class="english-col">close</td><td class="spanish-col">cerrar</td></tr>
+                        <tr><td class="english-col">come</td><td class="spanish-col">venir</td></tr>
+                        <tr><td class="english-col">come back</td><td class="spanish-col">volver</td></tr>
+                        <tr><td class="english-col">continue</td><td class="spanish-col">continuar</td></tr>
+                        <tr><td class="english-col">cooking</td><td class="spanish-col">hacer la cocina, cocinar</td></tr>
+                        <tr><td class="english-col">count</td><td class="spanish-col">contar</td></tr>
+                        <tr><td class="english-col">cry</td><td class="spanish-col">llorar</td></tr>
+                        <tr><td class="english-col">cut</td><td class="spanish-col">cortar</td></tr>
+                        <tr><td class="english-col">decide</td><td class="spanish-col">decidir</td></tr>
+                        <tr><td class="english-col">do</td><td class="spanish-col">hacer</td></tr>
+                        <tr><td class="english-col">drive</td><td class="spanish-col">conducir</td></tr>
+                        <tr><td class="english-col">duty</td><td class="spanish-col">deber</td></tr>
+                        <tr><td class="english-col">eat</td><td class="spanish-col">comer</td></tr>
+                        <tr><td class="english-col">enter</td><td class="spanish-col">entrar</td></tr>
+                        <tr><td class="english-col">exist</td><td class="spanish-col">existir</td></tr>
+                        <tr><td class="english-col">explain</td><td class="spanish-col">explicar</td></tr>
+                        <tr><td class="english-col">fall</td><td class="spanish-col">caer</td></tr>
+                        <tr><td class="english-col">fall asleep</td><td class="spanish-col">dormirse</td></tr>
+                        <tr><td class="english-col">find</td><td class="spanish-col">encontrar</td></tr>
+                        <tr><td class="english-col">finish</td><td class="spanish-col">terminar</td></tr>
+                        <tr><td class="english-col">fly</td><td class="spanish-col">volar</td></tr>
+                        <tr><td class="english-col">follow, continue</td><td class="spanish-col">seguir</td></tr>
+                        <tr><td class="english-col">forget</td><td class="spanish-col">olvidar</td></tr>
+                        <tr><td class="english-col">get off</td><td class="spanish-col">bajar</td></tr>
+                        <tr><td class="english-col">give</td><td class="spanish-col">dar</td></tr>
+                        <tr><td class="english-col">go</td><td class="spanish-col">ir</td></tr>
+                        <tr><td class="english-col">go home</td><td class="spanish-col">volver a casa, ir a casa</td></tr>
+                        <tr><td class="english-col">go out</td><td class="spanish-col">salir</td></tr>
+                        <tr><td class="english-col">have</td><td class="spanish-col">tener, haber</td></tr>
+                        <tr><td class="english-col">hear</td><td class="spanish-col">oír, escuchar</td></tr>
+                        <tr><td class="english-col">help</td><td class="spanish-col">ayudar</td></tr>
+                        <tr><td class="english-col">hold(physical object)</td><td class="spanish-col">sujetar,agarrar</td></tr>
+                        <tr><td class="english-col">keep, hold(state/condition)</td><td class="spanish-col">mantener</td></tr>
+                        <tr><td class="english-col">know</td><td class="spanish-col">conocer, saber</td></tr>
+                        <tr><td class="english-col">laugh</td><td class="spanish-col">reír</td></tr>
+                        <tr><td class="english-col">learn</td><td class="spanish-col">aprender</td></tr>
+                        <tr><td class="english-col">leave</td><td class="spanish-col">partir</td></tr>
+                        <tr><td class="english-col">leave something, let, allow</td><td class="spanish-col">dejar</td></tr>
+                        <tr><td class="english-col">listen</td><td class="spanish-col">escuchar</td></tr>
+                        <tr><td class="english-col">live</td><td class="spanish-col">vivir</td></tr>
+                        <tr><td class="english-col">look like</td><td class="spanish-col">parecerse</td></tr>
+                        <tr><td class="english-col">look, see</td><td class="spanish-col">ver</td></tr>
+                        <tr><td class="english-col">lose</td><td class="spanish-col">perder</td></tr>
+                        <tr><td class="english-col">love</td><td class="spanish-col">amar, gustar</td></tr>
+                        <tr><td class="english-col">make</td><td class="spanish-col">hacer</td></tr>
+                        <tr><td class="english-col">meet</td><td class="spanish-col">conocer</td></tr>
+                        <tr><td class="english-col">need</td><td class="spanish-col">necesitar</td></tr>
+                        <tr><td class="english-col">open</td><td class="spanish-col">abrir</td></tr>
+                        <tr><td class="english-col">pay</td><td class="spanish-col">pagar</td></tr>
+                        <tr><td class="english-col">play</td><td class="spanish-col">jugar</td></tr>
+                        <tr><td class="english-col">pose</td><td class="spanish-col">plantear</td></tr>
+                        <tr><td class="english-col">power</td><td class="spanish-col">poder</td></tr>
+                        <tr><td class="english-col">prepare</td><td class="spanish-col">preparar</td></tr>
+                        <tr><td class="english-col">prevent</td><td class="spanish-col">prevenir, impedir, evitar</td></tr>
+                        <tr><td class="english-col">put</td><td class="spanish-col">poner</td></tr>
+                        <tr><td class="english-col">read</td><td class="spanish-col">leer</td></tr>
+                        <tr><td class="english-col">recall</td><td class="spanish-col">recordar</td></tr>
+                        <tr><td class="english-col">receive</td><td class="spanish-col">recibir</td></tr>
+                        <tr><td class="english-col">recognize</td><td class="spanish-col">reconocer</td></tr>
+                        <tr><td class="english-col">refuse</td><td class="spanish-col">negarse</td></tr>
+                        <tr><td class="english-col">remember</td><td class="spanish-col">recordar</td></tr>
+                        <tr><td class="english-col">repeat</td><td class="spanish-col">repetir</td></tr>
+                        <tr><td class="english-col">rest</td><td class="spanish-col">descansar</td></tr>
+                        <tr><td class="english-col">return, go back</td><td class="spanish-col">volver</td></tr>
+                        <tr><td class="english-col">run</td><td class="spanish-col">correr</td></tr>
+                        <tr><td class="english-col">say</td><td class="spanish-col">decir</td></tr>
+                        <tr><td class="english-col">search</td><td class="spanish-col">buscar</td></tr>
+                        <tr><td class="english-col">see</td><td class="spanish-col">ver</td></tr>
+                        <tr><td class="english-col">seem</td><td class="spanish-col">parecer</td></tr>
+                        <tr><td class="english-col">sell</td><td class="spanish-col">vender</td></tr>
+                        <tr><td class="english-col">send</td><td class="spanish-col">enviar</td></tr>
+                        <tr><td class="english-col">shoot</td><td class="spanish-col">disparar</td></tr>
+                        <tr><td class="english-col">show</td><td class="spanish-col">mostrar</td></tr>
+                        <tr><td class="english-col">sing</td><td class="spanish-col">cantar</td></tr>
+                        <tr><td class="english-col">sit down</td><td class="spanish-col">sentarse</td></tr>
+                        <tr><td class="english-col">sleep</td><td class="spanish-col">dormir</td></tr>
+                        <tr><td class="english-col">start</td><td class="spanish-col">empezar</td></tr>
+                        <tr><td class="english-col">stay</td><td class="spanish-col">permanecer</td></tr>
+                        <tr><td class="english-col">stop</td><td class="spanish-col">detener</td></tr>
+                        <tr><td class="english-col">succeed</td><td class="spanish-col">tener éxito, lograr</td></tr>
+                        <tr><td class="english-col">switch off</td><td class="spanish-col">apagar, extinguir</td></tr>
+                        <tr><td class="english-col">take</td><td class="spanish-col">tomar</td></tr>
+                        <tr><td class="english-col">talk</td><td class="spanish-col">hablar</td></tr>
+                        <tr><td class="english-col">taste</td><td class="spanish-col">probar</td></tr>
+                        <tr><td class="english-col">think</td><td class="spanish-col">pensar</td></tr>
+                        <tr><td class="english-col">throw</td><td class="spanish-col">tirar</td></tr>
+                        <tr><td class="english-col">touch</td><td class="spanish-col">tocar</td></tr>
+                        <tr><td class="english-col">try</td><td class="spanish-col">intentar, tratar, probar</td></tr>
+                        <tr><td class="english-col">turn</td><td class="spanish-col">girar</td></tr>
+                        <tr><td class="english-col">turn on</td><td class="spanish-col">encender</td></tr>
+                        <tr><td class="english-col">understand</td><td class="spanish-col">comprender</td></tr>
+                        <tr><td class="english-col">use</td><td class="spanish-col">utilizar</td></tr>
+                        <tr><td class="english-col">wait</td><td class="spanish-col">esperar</td></tr>
+                        <tr><td class="english-col">wake up</td><td class="spanish-col">despertar</td></tr>
+                        <tr><td class="english-col">walk</td><td class="spanish-col">caminar</td></tr>
+                        <tr><td class="english-col">want</td><td class="spanish-col">querer</td></tr>
+                        <tr><td class="english-col">wash up</td><td class="spanish-col">lavarse</td></tr>
+                        <tr><td class="english-col">wash, clean</td><td class="spanish-col">lavar, limpiar</td></tr>
+                        <tr><td class="english-col">wear</td><td class="spanish-col">llevar</td></tr>
+                        <tr><td class="english-col">win</td><td class="spanish-col">ganar</td></tr>
+                        <tr><td class="english-col">work</td><td class="spanish-col">trabajar</td></tr>
+                        <tr><td class="english-col">write</td><td class="spanish-col">escribir</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- MOVEMENT & ACTION VERBS SECTION -->
+        <div class="section-header">Movement & Action Verbs - Verbos de Movimiento y Acción</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="spanish-col">Spanish</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">accompany</td><td class="spanish-col">acompañar</td></tr>
+                        <tr><td class="english-col">accelerate</td><td class="spanish-col">acelerar</td></tr>
+                        <tr><td class="english-col">applaud</td><td class="spanish-col">aplaudir</td></tr>
+                        <tr><td class="english-col">approach</td><td class="spanish-col">acercarse</td></tr>
+                        <tr><td class="english-col">bite</td><td class="spanish-col">morder</td></tr>
+                        <tr><td class="english-col">blink</td><td class="spanish-col">parpadear</td></tr>
+                        <tr><td class="english-col">blow</td><td class="spanish-col">soplar</td></tr>
+                        <tr><td class="english-col">breathe</td><td class="spanish-col">respirar</td></tr>
+                        <tr><td class="english-col">bring back</td><td class="spanish-col">traer de vuelta</td></tr>
+                        <tr><td class="english-col">bring (something)</td><td class="spanish-col">traer</td></tr>
+                        <tr><td class="english-col">build</td><td class="spanish-col">construir</td></tr>
+                        <tr><td class="english-col">catch</td><td class="spanish-col">atrapar</td></tr>
+                        <tr><td class="english-col">chew</td><td class="spanish-col">masticar</td></tr>
+                        <tr><td class="english-col">choose</td><td class="spanish-col">elegir</td></tr>
+                        <tr><td class="english-col">climb</td><td class="spanish-col">escalar</td></tr>
+                        <tr><td class="english-col">cook</td><td class="spanish-col">cocinar</td></tr>
+                        <tr><td class="english-col">crawl</td><td class="spanish-col">arrastrarse</td></tr>
+                        <tr><td class="english-col">crossing (something)</td><td class="spanish-col">cruzar</td></tr>
+                        <tr><td class="english-col">dance</td><td class="spanish-col">bailar</td></tr>
+                        <tr><td class="english-col">discard</td><td class="spanish-col">descartar, separar</td></tr>
+                        <tr><td class="english-col">dive</td><td class="spanish-col">bucear</td></tr>
+                        <tr><td class="english-col">dodge</td><td class="spanish-col">esquivar</td></tr>
+                        <tr><td class="english-col">dream</td><td class="spanish-col">soñar</td></tr>
+                        <tr><td class="english-col">drink</td><td class="spanish-col">beber</td></tr>
+                        <tr><td class="english-col">escape</td><td class="spanish-col">escapar, escaparse, evadirse</td></tr>
+                        <tr><td class="english-col">expand, spread out</td><td class="spanish-col">extenderse</td></tr>
+                        <tr><td class="english-col">feel</td><td class="spanish-col">sentir, oler</td></tr>
+                        <tr><td class="english-col">float</td><td class="spanish-col">flotar</td></tr>
+                        <tr><td class="english-col">fold</td><td class="spanish-col">doblar</td></tr>
+                        <tr><td class="english-col">follow (someone)</td><td class="spanish-col">seguir</td></tr>
+                        <tr><td class="english-col">get out</td><td class="spanish-col">salir</td></tr>
+                        <tr><td class="english-col">get up</td><td class="spanish-col">levantarse, pararse</td></tr>
+                        <tr><td class="english-col">go to bed</td><td class="spanish-col">acostarse</td></tr>
+                        <tr><td class="english-col">grow</td><td class="spanish-col">crecer</td></tr>
+                        <tr><td class="english-col">hang out</td><td class="spanish-col">colgar</td></tr>
+                        <tr><td class="english-col">howl, scream</td><td class="spanish-col">gritar</td></tr>
+                        <tr><td class="english-col">hug</td><td class="spanish-col">abrazar</td></tr>
+                        <tr><td class="english-col">increase</td><td class="spanish-col">aumentar</td></tr>
+                        <tr><td class="english-col">jump</td><td class="spanish-col">saltar</td></tr>
+                        <tr><td class="english-col">kick</td><td class="spanish-col">patear</td></tr>
+                        <tr><td class="english-col">kiss</td><td class="spanish-col">besar</td></tr>
+                        <tr><td class="english-col">kneel, kneel down</td><td class="spanish-col">arrodillarse</td></tr>
+                        <tr><td class="english-col">knock</td><td class="spanish-col">golpear</td></tr>
+                        <tr><td class="english-col">launch</td><td class="spanish-col">lanzar</td></tr>
+                        <tr><td class="english-col">lick</td><td class="spanish-col">lamer</td></tr>
+                        <tr><td class="english-col">lie down</td><td class="spanish-col">tumbarse</td></tr>
+                        <tr><td class="english-col">lift</td><td class="spanish-col">levantar</td></tr>
+                        <tr><td class="english-col">lose weight</td><td class="spanish-col">bajar de peso, perder peso</td></tr>
+                        <tr><td class="english-col">move (something)</td><td class="spanish-col">mover</td></tr>
+                        <tr><td class="english-col">move forward</td><td class="spanish-col">avanzar</td></tr>
+                        <tr><td class="english-col">park</td><td class="spanish-col">estacionarse, aparcar</td></tr>
+                        <tr><td class="english-col">pass</td><td class="spanish-col">pasar</td></tr>
+                        <tr><td class="english-col">pick up</td><td class="spanish-col">recoger</td></tr>
+                        <tr><td class="english-col">pour</td><td class="spanish-col">verter</td></tr>
+                        <tr><td class="english-col">push</td><td class="spanish-col">empujar</td></tr>
+                        <tr><td class="english-col">reach, join</td><td class="spanish-col">llegar, alcanzar</td></tr>
+                        <tr><td class="english-col">repair (something)</td><td class="spanish-col">reparar, arreglar</td></tr>
+                        <tr><td class="english-col">return (somewhere), back</td><td class="spanish-col">volver, regresar</td></tr>
+                        <tr><td class="english-col">ride</td><td class="spanish-col">montar</td></tr>
+                        <tr><td class="english-col">search</td><td class="spanish-col">buscar</td></tr>
+                        <tr><td class="english-col">shake</td><td class="spanish-col">sacudir, agitar</td></tr>
+                        <tr><td class="english-col">shout</td><td class="spanish-col">gritar</td></tr>
+                        <tr><td class="english-col">shower, take a shower</td><td class="spanish-col">ducharse</td></tr>
+                        <tr><td class="english-col">shrug shoulders</td><td class="spanish-col">encogerse de hombros</td></tr>
+                        <tr><td class="english-col">slide</td><td class="spanish-col">deslizar</td></tr>
+                        <tr><td class="english-col">sniff</td><td class="spanish-col">olfatear, oler</td></tr>
+                        <tr><td class="english-col">squatting</td><td class="spanish-col">agacharse</td></tr>
+                        <tr><td class="english-col">steal</td><td class="spanish-col">robar</td></tr>
+                        <tr><td class="english-col">swallow</td><td class="spanish-col">tragar</td></tr>
+                        <tr><td class="english-col">sweat</td><td class="spanish-col">sudar</td></tr>
+                        <tr><td class="english-col">swim</td><td class="spanish-col">nadar</td></tr>
+                        <tr><td class="english-col">take, take away</td><td class="spanish-col">llevar</td></tr>
+                        <tr><td class="english-col">teach</td><td class="spanish-col">enseñar</td></tr>
+                        <tr><td class="english-col">to go backward (in time)</td><td class="spanish-col">retroceder</td></tr>
+                        <tr><td class="english-col">turn around</td><td class="spanish-col">voltear, girar</td></tr>
+                        <tr><td class="english-col">visit</td><td class="spanish-col">visitar</td></tr>
+                        <tr><td class="english-col">walk away</td><td class="spanish-col">alejarse</td></tr>
+                        <tr><td class="english-col">watch</td><td class="spanish-col">mirar, ver, observar</td></tr>
+                        <tr><td class="english-col">wear, take away</td><td class="spanish-col">llevar</td></tr>
+                        <tr><td class="english-col">whisper</td><td class="spanish-col">susurrar</td></tr>
+                        <tr><td class="english-col">whistle</td><td class="spanish-col">silbar</td></tr>
+                        <tr><td class="english-col">wink</td><td class="spanish-col">guiñar, parpadear</td></tr>
+                        <tr><td class="english-col">yawn</td><td class="spanish-col">bostezar</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- COOKING VERBS SECTION -->
+        <div class="section-header">Cooking Verbs - Verbos de Cocina</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="spanish-col">Spanish</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">bake, gratinate</td><td class="spanish-col">hornear, gratinar</td></tr>
+                        <tr><td class="english-col">beat egg whites</td><td class="spanish-col">batir las claras de huevo</td></tr>
+                        <tr><td class="english-col">beat, whisk (eggs)</td><td class="spanish-col">batir, azotar (los huevos)</td></tr>
+                        <tr><td class="english-col">blanch vegetables</td><td class="spanish-col">blanquear las verduras</td></tr>
+                        <tr><td class="english-col">boil, make boil</td><td class="spanish-col">hervir, hacer hervir</td></tr>
+                        <tr><td class="english-col">braise</td><td class="spanish-col">brasear</td></tr>
+                        <tr><td class="english-col">butter</td><td class="spanish-col">untar con mantequilla</td></tr>
+                        <tr><td class="english-col">butter a mold</td><td class="spanish-col">untar con mantequilla un molde</td></tr>
+                        <tr><td class="english-col">carve meat</td><td class="spanish-col">cortar la carne</td></tr>
+                        <tr><td class="english-col">chisel</td><td class="spanish-col">cincelar</td></tr>
+                        <tr><td class="english-col">chop (meat), mince</td><td class="spanish-col">picar (la carne)</td></tr>
+                        <tr><td class="english-col">clean</td><td class="spanish-col">limpiar</td></tr>
+                        <tr><td class="english-col">clear</td><td class="spanish-col">eliminar</td></tr>
+                        <tr><td class="english-col">color</td><td class="spanish-col">colorear</td></tr>
+                        <tr><td class="english-col">complete</td><td class="spanish-col">completar</td></tr>
+                        <tr><td class="english-col">confection</td><td class="spanish-col">confeccionar</td></tr>
+                        <tr><td class="english-col">cook</td><td class="spanish-col">cocinar</td></tr>
+                        <tr><td class="english-col">cook in wood fire</td><td class="spanish-col">cocinar en la hoguera</td></tr>
+                        <tr><td class="english-col">cover</td><td class="spanish-col">cubrir</td></tr>
+                        <tr><td class="english-col">crush, reduce to puree</td><td class="spanish-col">aplastar, reducir en puré</td></tr>
+                        <tr><td class="english-col">cut</td><td class="spanish-col">cortar</td></tr>
+                        <tr><td class="english-col">cut (in slices)</td><td class="spanish-col">cortar en rodajas</td></tr>
+                        <tr><td class="english-col">cut in cubes</td><td class="spanish-col">cortar en cubos</td></tr>
+                        <tr><td class="english-col">cut in half</td><td class="spanish-col">cortar por la mitad</td></tr>
+                        <tr><td class="english-col">decorate</td><td class="spanish-col">decorar</td></tr>
+                        <tr><td class="english-col">deglaze</td><td class="spanish-col">descongelar</td></tr>
+                        <tr><td class="english-col">detail</td><td class="spanish-col">detallar</td></tr>
+                        <tr><td class="english-col">dilute, dissolve</td><td class="spanish-col">disolver, diluir</td></tr>
+                        <tr><td class="english-col">dispose</td><td class="spanish-col">disponer</td></tr>
+                        <tr><td class="english-col">dissolve</td><td class="spanish-col">disolver</td></tr>
+                        <tr><td class="english-col">drain</td><td class="spanish-col">escurrir</td></tr>
+                        <tr><td class="english-col">dress</td><td class="spanish-col">preparar</td></tr>
+                        <tr><td class="english-col">dry</td><td class="spanish-col">secar</td></tr>
+                        <tr><td class="english-col">extend</td><td class="spanish-col">extender</td></tr>
+                        <tr><td class="english-col">fillet</td><td class="spanish-col">afilar</td></tr>
+                        <tr><td class="english-col">filter</td><td class="spanish-col">filtrar</td></tr>
+                        <tr><td class="english-col">flatten</td><td class="spanish-col">aplanar</td></tr>
+                        <tr><td class="english-col">flavor</td><td class="spanish-col">aromatizar</td></tr>
+                        <tr><td class="english-col">foam</td><td class="spanish-col">espumar</td></tr>
+                        <tr><td class="english-col">freeze</td><td class="spanish-col">helar</td></tr>
+                        <tr><td class="english-col">fry in oil</td><td class="spanish-col">freír en aceite</td></tr>
+                        <tr><td class="english-col">garnish</td><td class="spanish-col">adornar</td></tr>
+                        <tr><td class="english-col">grate</td><td class="spanish-col">rallar</td></tr>
+                        <tr><td class="english-col">grill fish</td><td class="spanish-col">asar pescado a la parrilla</td></tr>
+                        <tr><td class="english-col">grill, make grill</td><td class="spanish-col">asar, asar a la parrilla</td></tr>
+                        <tr><td class="english-col">grill bread</td><td class="spanish-col">hacer tostadas con pan</td></tr>
+                        <tr><td class="english-col">heat</td><td class="spanish-col">calentar</td></tr>
+                        <tr><td class="english-col">incorporate</td><td class="spanish-col">incorporar</td></tr>
+                        <tr><td class="english-col">infuse</td><td class="spanish-col">infundir</td></tr>
+                        <tr><td class="english-col">knead</td><td class="spanish-col">amasar</td></tr>
+                        <tr><td class="english-col">lower the fire</td><td class="spanish-col">bajar el fuego</td></tr>
+                        <tr><td class="english-col">macerate</td><td class="spanish-col">macerar</td></tr>
+                        <tr><td class="english-col">make brown onions</td><td class="spanish-col">hacer marrón cebollas</td></tr>
+                        <tr><td class="english-col">make eggs with shell</td><td class="spanish-col">hacer huevos con cáscara</td></tr>
+                        <tr><td class="english-col">make flambe</td><td class="spanish-col">hacer flamear</td></tr>
+                        <tr><td class="english-col">melt, make melt</td><td class="spanish-col">derretir</td></tr>
+                        <tr><td class="english-col">mix</td><td class="spanish-col">mezclar</td></tr>
+                        <tr><td class="english-col">oil</td><td class="spanish-col">aceitar</td></tr>
+                        <tr><td class="english-col">peel</td><td class="spanish-col">pelar</td></tr>
+                        <tr><td class="english-col">perfume</td><td class="spanish-col">perfumar</td></tr>
+                        <tr><td class="english-col">pinch</td><td class="spanish-col">pellizcar</td></tr>
+                        <tr><td class="english-col">place</td><td class="spanish-col">colocar</td></tr>
+                        <tr><td class="english-col">plunge</td><td class="spanish-col">sumergir</td></tr>
+                        <tr><td class="english-col">poach eggs, fish</td><td class="spanish-col">escalfar los huevos, pescado</td></tr>
+                        <tr><td class="english-col">pepper</td><td class="spanish-col">pimentar, sazonar con pimienta</td></tr>
+                        <tr><td class="english-col">preheat the oven</td><td class="spanish-col">precalentar el horno</td></tr>
+                        <tr><td class="english-col">prepare the meal</td><td class="spanish-col">preparar la comida</td></tr>
+                        <tr><td class="english-col">present</td><td class="spanish-col">presentar</td></tr>
+                        <tr><td class="english-col">press</td><td class="spanish-col">presionar</td></tr>
+                        <tr><td class="english-col">protect</td><td class="spanish-col">proteger</td></tr>
+                        <tr><td class="english-col">put aside</td><td class="spanish-col">dejar de lado</td></tr>
+                        <tr><td class="english-col">put the cover</td><td class="spanish-col">poner la cubierta</td></tr>
+                        <tr><td class="english-col">raise the fire</td><td class="spanish-col">subir el fuego</td></tr>
+                        <tr><td class="english-col">reduce</td><td class="spanish-col">reducir</td></tr>
+                        <tr><td class="english-col">reduce the fire</td><td class="spanish-col">reducir el fuego</td></tr>
+                        <tr><td class="english-col">refresh</td><td class="spanish-col">refrescar</td></tr>
+                        <tr><td class="english-col">remove</td><td class="spanish-col">quitar</td></tr>
+                        <tr><td class="english-col">reserve</td><td class="spanish-col">reservar</td></tr>
+                        <tr><td class="english-col">rinse</td><td class="spanish-col">enjuagar</td></tr>
+                        <tr><td class="english-col">roast</td><td class="spanish-col">asar</td></tr>
+                        <tr><td class="english-col">roast meat</td><td class="spanish-col">asar la carne</td></tr>
+                        <tr><td class="english-col">roast, toast</td><td class="spanish-col">tostar</td></tr>
+                        <tr><td class="english-col">roll</td><td class="spanish-col">rodar</td></tr>
+                        <tr><td class="english-col">rub</td><td class="spanish-col">frotar</td></tr>
+                        <tr><td class="english-col">salt</td><td class="spanish-col">salar</td></tr>
+                        <tr><td class="english-col">saute vegetables with peas</td><td class="spanish-col">saltear verduras con guisantes</td></tr>
+                        <tr><td class="english-col">saute with low fire</td><td class="spanish-col">rehogar a fuego lento</td></tr>
+                        <tr><td class="english-col">season (salt, pepper, spices)</td><td class="spanish-col">sazonar (sal, pimienta, especias)</td></tr>
+                        <tr><td class="english-col">season</td><td class="spanish-col">condimentar</td></tr>
+                        <tr><td class="english-col">separate</td><td class="spanish-col">separar</td></tr>
+                        <tr><td class="english-col">serve</td><td class="spanish-col">servir</td></tr>
+                        <tr><td class="english-col">share</td><td class="spanish-col">compartir</td></tr>
+                        <tr><td class="english-col">sift</td><td class="spanish-col">tamizar</td></tr>
+                        <tr><td class="english-col">simmer</td><td class="spanish-col">cocer a fuego lento</td></tr>
+                        <tr><td class="english-col">smooth</td><td class="spanish-col">alisar</td></tr>
+                        <tr><td class="english-col">sprinkle</td><td class="spanish-col">espolvorear</td></tr>
+                        <tr><td class="english-col">steam</td><td class="spanish-col">cocer al vapor</td></tr>
+                        <tr><td class="english-col">stir</td><td class="spanish-col">agitar</td></tr>
+                        <tr><td class="english-col">stir, mix</td><td class="spanish-col">remover, mezclar</td></tr>
+                        <tr><td class="english-col">store</td><td class="spanish-col">almacenar</td></tr>
+                        <tr><td class="english-col">stuff, fill</td><td class="spanish-col">rellenar</td></tr>
+                        <tr><td class="english-col">throw</td><td class="spanish-col">tirar</td></tr>
+                        <tr><td class="english-col">tie</td><td class="spanish-col">atar</td></tr>
+                        <tr><td class="english-col">tighten</td><td class="spanish-col">apretar</td></tr>
+                        <tr><td class="english-col">turn over a dish</td><td class="spanish-col">volcar un plato</td></tr>
+                        <tr><td class="english-col">wash</td><td class="spanish-col">lavar</td></tr>
+                        <tr><td class="english-col">wash the dishes</td><td class="spanish-col">hacer la vajilla</td></tr>
+                        <tr><td class="english-col">water</td><td class="spanish-col">regar</td></tr>
+                        <tr><td class="english-col">water with oil</td><td class="spanish-col">regar con aceite</td></tr>
+                        <tr><td class="english-col">weigh</td><td class="spanish-col">pesar</td></tr>
+                        <tr><td class="english-col">whip</td><td class="spanish-col">azotar</td></tr>
+                        <tr><td class="english-col">wrap</td><td class="spanish-col">envolver</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>Spanish Verbs Reference</strong></p>
+            <p>Professional vocabulary compilation with comprehensive data cleaning presented by meliglossa</p>
+        </div>
+    </div>
+</body>
+</html>

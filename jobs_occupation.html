@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Jobs and Occupations Reference</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+        
+        .section-header {
+            background: linear-gradient(135deg, #ff8c00 0%, #ffd700 100%);
+            color: white;
+            padding: 20px 40px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .section-header:first-child {
+            margin-top: 0;
+        }
+        
+        .table-container {
+            padding: 40px;
+        }
+        
+        .table-wrapper {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1.1rem;
+        }
+        
+        thead {
+            background: linear-gradient(135deg, #ff8c00 0%, #ffd700 100%);
+        }
+        
+        thead th {
+            color: white;
+            font-weight: 600;
+            font-size: 1.4rem;
+            padding: 20px;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        tbody tr {
+            border-bottom: 1px solid #e9ecef;
+            transition: all 0.2s ease;
+        }
+        
+        tbody tr:hover {
+            background-color: #f8f9fa;
+            transform: translateY(-1px);
+        }
+        
+        tbody tr:nth-child(even) {
+            background-color: #fdfdfe;
+        }
+        
+        td {
+            padding: 18px 20px;
+            vertical-align: top;
+        }
+        
+        .english-col {
+            color: #2c3e50;
+            width: 45%;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        
+        .spanish-col {
+            color: #495057;
+            font-style: italic;
+            width: 55%;
+            font-size: 1.1rem;
+        }
+        
+        .spanish-col::before {
+            content: "• ";
+            color: #ff8c00;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            text-align: center;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .footer p {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+            
+            tbody tr:hover {
+                background-color: transparent;
+                transform: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .table-container {
+                padding: 20px;
+            }
+            
+            table {
+                font-size: 0.9rem;
+            }
+            
+            td {
+                padding: 12px 15px;
+            }
+            
+            .section-header {
+                font-size: 1.2rem;
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- JOBS AND OCCUPATIONS SECTION -->
+        <div class="section-header">Jobs and Occupations - Trabajos y Ocupaciones</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="spanish-col">Spanish</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">accountant</td><td class="spanish-col">un contable</td></tr>
+                        <tr><td class="english-col">actor</td><td class="spanish-col">un actor</td></tr>
+                        <tr><td class="english-col">actress</td><td class="spanish-col">una actriz</td></tr>
+                        <tr><td class="english-col">adviser</td><td class="spanish-col">un asesor</td></tr>
+                        <tr><td class="english-col">air hostess, stewardess</td><td class="spanish-col">una azafata</td></tr>
+                        <tr><td class="english-col">ambulance driver</td><td class="spanish-col">un conductor de ambulancia</td></tr>
+                        <tr><td class="english-col">architect</td><td class="spanish-col">un arquitecto</td></tr>
+                        <tr><td class="english-col">artist</td><td class="spanish-col">un/una artista</td></tr>
+                        <tr><td class="english-col">baker</td><td class="spanish-col">un panadero</td></tr>
+                        <tr><td class="english-col">barman, bartender</td><td class="spanish-col">un camarero</td></tr>
+                        <tr><td class="english-col">beekeeper, apiarist</td><td class="spanish-col">un apicultor</td></tr>
+                        <tr><td class="english-col">bookseller</td><td class="spanish-col">un librero</td></tr>
+                        <tr><td class="english-col">builder, bricklayer</td><td class="spanish-col">un albañil</td></tr>
+                        <tr><td class="english-col">bus driver</td><td class="spanish-col">un conductor de autobús</td></tr>
+                        <tr><td class="english-col">butcher</td><td class="spanish-col">un carnicero</td></tr>
+                        <tr><td class="english-col">buyer</td><td class="spanish-col">un comprador</td></tr>
+                        <tr><td class="english-col">cabinet maker</td><td class="spanish-col">un/una ebanista</td></tr>
+                        <tr><td class="english-col">cameraman</td><td class="spanish-col">un camarógrafo</td></tr>
+                        <tr><td class="english-col">caretaker</td><td class="spanish-col">un guardián</td></tr>
+                        <tr><td class="english-col">carpenter, joiner</td><td class="spanish-col">un carpintero</td></tr>
+                        <tr><td class="english-col">cashier</td><td class="spanish-col">un cajero, una cajera</td></tr>
+                        <tr><td class="english-col">caterer</td><td class="spanish-col">un proveedor de catering</td></tr>
+                        <tr><td class="english-col">CEO</td><td class="spanish-col">un director general</td></tr>
+                        <tr><td class="english-col">chairperson</td><td class="spanish-col">un/una presidente</td></tr>
+                        <tr><td class="english-col">chef</td><td class="spanish-col">un chef de cocina</td></tr>
+                        <tr><td class="english-col">civil servant</td><td class="spanish-col">un funcionario</td></tr>
+                        <tr><td class="english-col">cleaner</td><td class="spanish-col">un limpiador</td></tr>
+                        <tr><td class="english-col">cleaning lady</td><td class="spanish-col">una mujer de la limpieza</td></tr>
+                        <tr><td class="english-col">company manager</td><td class="spanish-col">un director de empresa</td></tr>
+                        <tr><td class="english-col">concierge</td><td class="spanish-col">un conserje</td></tr>
+                        <tr><td class="english-col">contractor</td><td class="spanish-col">un contratista</td></tr>
+                        <tr><td class="english-col">cook</td><td class="spanish-col">un cocinero</td></tr>
+                        <tr><td class="english-col">customs officer</td><td class="spanish-col">un/una agente de aduanas</td></tr>
+                        <tr><td class="english-col">dancer</td><td class="spanish-col">un bailarín</td></tr>
+                        <tr><td class="english-col">delivery driver, delivery man</td><td class="spanish-col">un repartidor</td></tr>
+                        <tr><td class="english-col">dentist</td><td class="spanish-col">un/una dentista</td></tr>
+                        <tr><td class="english-col">developer</td><td class="spanish-col">un desarrollador</td></tr>
+                        <tr><td class="english-col">doctor</td><td class="spanish-col">un médico</td></tr>
+                        <tr><td class="english-col">door-keeper</td><td class="spanish-col">un portero</td></tr>
+                        <tr><td class="english-col">driver</td><td class="spanish-col">un conductor</td></tr>
+                        <tr><td class="english-col">dry-cleaner</td><td class="spanish-col">un tintorero</td></tr>
+                        <tr><td class="english-col">dustman, garbageman</td><td class="spanish-col">un basurero</td></tr>
+                        <tr><td class="english-col">electrician</td><td class="spanish-col">un/una electricista</td></tr>
+                        <tr><td class="english-col">engineer</td><td class="spanish-col">un ingeniero</td></tr>
+                        <tr><td class="english-col">estate agent</td><td class="spanish-col">un/una agente inmobiliario</td></tr>
+                        <tr><td class="english-col">farmer</td><td class="spanish-col">un granjero, un agricultor</td></tr>
+                        <tr><td class="english-col">film editor</td><td class="spanish-col">un montador de películas</td></tr>
+                        <tr><td class="english-col">fireman</td><td class="spanish-col">un bombero</td></tr>
+                        <tr><td class="english-col">fisherman</td><td class="spanish-col">un pescador</td></tr>
+                        <tr><td class="english-col">fishmonger</td><td class="spanish-col">un pescadero</td></tr>
+                        <tr><td class="english-col">flight attendant</td><td class="spanish-col">un auxiliar de vuelo</td></tr>
+                        <tr><td class="english-col">florist</td><td class="spanish-col">un/una florista</td></tr>
+                        <tr><td class="english-col">furniture mover</td><td class="spanish-col">un empleado de mudanzas</td></tr>
+                        <tr><td class="english-col">gardener</td><td class="spanish-col">un jardinero</td></tr>
+                        <tr><td class="english-col">greengrocer</td><td class="spanish-col">un verdulero</td></tr>
+                        <tr><td class="english-col">hairdresser</td><td class="spanish-col">un peluquero</td></tr>
+                        <tr><td class="english-col">industrial designer</td><td class="spanish-col">un diseñador industrial</td></tr>
+                        <tr><td class="english-col">jeweller</td><td class="spanish-col">un joyero</td></tr>
+                        <tr><td class="english-col">job</td><td class="spanish-col">un trabajo, un oficio</td></tr>
+                        <tr><td class="english-col">journalist</td><td class="spanish-col">un periodista</td></tr>
+                        <tr><td class="english-col">judge</td><td class="spanish-col">un/una juez</td></tr>
+                        <tr><td class="english-col">kitchenhand</td><td class="spanish-col">un empleado de cocina</td></tr>
+                        <tr><td class="english-col">lawyer</td><td class="spanish-col">un abogado</td></tr>
+                        <tr><td class="english-col">librarian</td><td class="spanish-col">un bibliotecario</td></tr>
+                        <tr><td class="english-col">lifeguard</td><td class="spanish-col">un/una socorrista</td></tr>
+                        <tr><td class="english-col">locksmith</td><td class="spanish-col">un cerrajero</td></tr>
+                        <tr><td class="english-col">lorry driver, truck driver</td><td class="spanish-col">un camionero</td></tr>
+                        <tr><td class="english-col">lumberjack</td><td class="spanish-col">un leñador</td></tr>
+                        <tr><td class="english-col">manager</td><td class="spanish-col">un/una gerente, un director</td></tr>
+                        <tr><td class="english-col">mayor</td><td class="spanish-col">un alcalde</td></tr>
+                        <tr><td class="english-col">mechanic</td><td class="spanish-col">un mecánico</td></tr>
+                        <tr><td class="english-col">midwife</td><td class="spanish-col">una partera</td></tr>
+                        <tr><td class="english-col">miner</td><td class="spanish-col">un minero</td></tr>
+                        <tr><td class="english-col">movie director</td><td class="spanish-col">un director de cine</td></tr>
+                        <tr><td class="english-col">musician</td><td class="spanish-col">un músico</td></tr>
+                        <tr><td class="english-col">notary</td><td class="spanish-col">un notario</td></tr>
+                        <tr><td class="english-col">nurse</td><td class="spanish-col">un enfermero, una enfermera</td></tr>
+                        <tr><td class="english-col">ophthalmologist</td><td class="spanish-col">un oftalmólogo</td></tr>
+                        <tr><td class="english-col">optician</td><td class="spanish-col">un óptico</td></tr>
+                        <tr><td class="english-col">pediatrician</td><td class="spanish-col">un pediatra</td></tr>
+                        <tr><td class="english-col">painter</td><td class="spanish-col">un pintor</td></tr>
+                        <tr><td class="english-col">pastry cook</td><td class="spanish-col">un pastelero</td></tr>
+                        <tr><td class="english-col">pharmacist</td><td class="spanish-col">un farmacéutico</td></tr>
+                        <tr><td class="english-col">photographer</td><td class="spanish-col">un fotógrafo</td></tr>
+                        <tr><td class="english-col">physiotherapist</td><td class="spanish-col">un fisioterapeuta</td></tr>
+                        <tr><td class="english-col">pilot</td><td class="spanish-col">un piloto</td></tr>
+                        <tr><td class="english-col">plumber</td><td class="spanish-col">un fontanero</td></tr>
+                        <tr><td class="english-col">policeman</td><td class="spanish-col">un policía</td></tr>
+                        <tr><td class="english-col">politician</td><td class="spanish-col">un político</td></tr>
+                        <tr><td class="english-col">postman</td><td class="spanish-col">un cartero</td></tr>
+                        <tr><td class="english-col">producer</td><td class="spanish-col">un productor</td></tr>
+                        <tr><td class="english-col">psychiatrist</td><td class="spanish-col">un psiquiatra</td></tr>
+                        <tr><td class="english-col">publisher</td><td class="spanish-col">un editor</td></tr>
+                        <tr><td class="english-col">railway man, railroad man</td><td class="spanish-col">un ferroviario</td></tr>
+                        <tr><td class="english-col">receptionist</td><td class="spanish-col">un/una recepcionista</td></tr>
+                        <tr><td class="english-col">repairman</td><td class="spanish-col">un reparador</td></tr>
+                        <tr><td class="english-col">researcher</td><td class="spanish-col">un investigador</td></tr>
+                        <tr><td class="english-col">retailer</td><td class="spanish-col">un/una minorista</td></tr>
+                        <tr><td class="english-col">sailor</td><td class="spanish-col">un marinero</td></tr>
+                        <tr><td class="english-col">sales and marketing person</td><td class="spanish-col">un/una comercial</td></tr>
+                        <tr><td class="english-col">scientist</td><td class="spanish-col">un científico</td></tr>
+                        <tr><td class="english-col">scriptwriter</td><td class="spanish-col">un/una guionista</td></tr>
+                        <tr><td class="english-col">sculptor</td><td class="spanish-col">un escultor</td></tr>
+                        <tr><td class="english-col">seamstress</td><td class="spanish-col">una costurera</td></tr>
+                        <tr><td class="english-col">secretary</td><td class="spanish-col">un secretario</td></tr>
+                        <tr><td class="english-col">security guard</td><td class="spanish-col">un guardia de seguridad</td></tr>
+                        <tr><td class="english-col">service-station attendant</td><td class="spanish-col">un empleado de gasolinera</td></tr>
+                        <tr><td class="english-col">shop assistant</td><td class="spanish-col">un vendedor, una vendedora</td></tr>
+                        <tr><td class="english-col">shop keeper</td><td class="spanish-col">un tendero</td></tr>
+                        <tr><td class="english-col">singer</td><td class="spanish-col">un/una cantante</td></tr>
+                        <tr><td class="english-col">soldier</td><td class="spanish-col">un soldado</td></tr>
+                        <tr><td class="english-col">sportsman</td><td class="spanish-col">un/una deportista</td></tr>
+                        <tr><td class="english-col">strike</td><td class="spanish-col">una huelga</td></tr>
+                        <tr><td class="english-col">surgeon</td><td class="spanish-col">un cirujano</td></tr>
+                        <tr><td class="english-col">tailor</td><td class="spanish-col">un/una sastre</td></tr>
+                        <tr><td class="english-col">tax-collector</td><td class="spanish-col">un recaudador de impuestos</td></tr>
+                        <tr><td class="english-col">taxi driver</td><td class="spanish-col">un/una taxista</td></tr>
+                        <tr><td class="english-col">teacher</td><td class="spanish-col">un profesor</td></tr>
+                        <tr><td class="english-col">telephone operator, switchboard operator</td><td class="spanish-col">un operador telefónico</td></tr>
+                        <tr><td class="english-col">tiler</td><td class="spanish-col">un azulejero</td></tr>
+                        <tr><td class="english-col">translator</td><td class="spanish-col">un traductor</td></tr>
+                        <tr><td class="english-col">travel agent</td><td class="spanish-col">un/una agente de viajes</td></tr>
+                        <tr><td class="english-col">typist</td><td class="spanish-col">un mecanógrafo</td></tr>
+                        <tr><td class="english-col">veterinary surgeon, vet</td><td class="spanish-col">un veterinario</td></tr>
+                        <tr><td class="english-col">waiter</td><td class="spanish-col">un camarero</td></tr>
+                        <tr><td class="english-col">waitress</td><td class="spanish-col">una camarera</td></tr>
+                        <tr><td class="english-col">weatherman</td><td class="spanish-col">un presentador del tiempo</td></tr>
+                        <tr><td class="english-col">wholesaler</td><td class="spanish-col">un/una mayorista</td></tr>
+                        <tr><td class="english-col">woodworker</td><td class="spanish-col">un carpintero</td></tr>
+                        <tr><td class="english-col">writer</td><td class="spanish-col">un escritor</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>Spanish Jobs and Occupations Reference</strong></p>
+            <p>Professional vocabulary compilation with comprehensive data cleaning presented by meliglossa</p>
+        </div>
+    </div>
+</body>
+</html>
